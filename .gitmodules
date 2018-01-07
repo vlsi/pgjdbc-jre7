@@ -1,4 +1,4 @@
 [submodule "pgjdbc"]
 	path = pgjdbc
-	url = https://github.com/pgjdbc/pgjdbc.git
+	url = https://github.com/vlsi/pgjdbc.git
 	branch = release_branch

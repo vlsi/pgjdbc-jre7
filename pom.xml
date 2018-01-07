@@ -7,6 +7,7 @@
         <relativePath /><!-- do not print maven warnings when pgjdbc-jre7 is checked out under pgjdbc -->
     </parent>
 
+  <groupId>com.github.vlsi.org.postgresql</groupId>
     <artifactId>postgresql</artifactId>
     <packaging>bundle</packaging>
     <name>PostgreSQL JDBC Driver - JDBC 4.1</name>
@@ -66,9 +67,9 @@
 
     <!-- If inherited from parent pom, maven tries to add artifactId to URLs -->
     <scm>
-        <url>https://github.com/pgjdbc/pgjdbc-jre7</url>
-        <connection>scm:git:https://github.com/pgjdbc/pgjdbc-jre7.git</connection>
-        <developerConnection>scm:git:git@github.com:pgjdbc/pgjdbc-jre7.git</developerConnection>
+        <url>https://github.com/vlsi/pgjdbc-jre7</url>
+        <connection>scm:git:https://github.com/vlsi/pgjdbc-jre7.git</connection>
+        <developerConnection>scm:git:git@github.com:vlsi/pgjdbc-jre7.git</developerConnection>
       <tag>HEAD</tag>
   </scm>
 
