@@ -21,6 +21,7 @@
         <jdbc.specification.version.nodot>41</jdbc.specification.version.nodot>
         <skip.assembly>false</skip.assembly>
         <skip.unzip-jdk-src>false</skip.unzip-jdk-src>
+        <argLine>-Xmx1024m</argLine>
     </properties>
 
     <build>
